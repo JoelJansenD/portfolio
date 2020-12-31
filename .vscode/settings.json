@@ -6,6 +6,10 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/*.css": true,
-        "**/*.css.map": true
+        "**/*.css.map": true,
+        "build/": true,
+        "node_modules/": true,
+        "**/.eslintcache": true,
+        "**/package-lock.json": true
     }
 }
