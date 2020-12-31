@@ -3,10 +3,16 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "run",
+			"script": "deploy",
 			"group": "build",
-			"label": "npm: run",
-			"detail": "react-scripts run",
+			"label": "npm: deploy"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"group": "build",
+			"label": "npm: start",
+			"detail": "react-scripts start",
 			"dependsOn": [
 				"npm: build"
 			]
