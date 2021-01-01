@@ -1,0 +1,40 @@
+{
+    "featured": {
+        "type": "Featured project",
+        "name": "FIFA Tracker",
+        "description": "Ea nulla cupidatat minim ut veniam commodo commodo eu dolor nisi duis eiusmod. Tempor nisi laborum consequat id eiusmod ut anim ullamco reprehenderit.",
+        "image": "iphone.png"
+    },
+    "projects": [
+        {
+            "type": "D&D",
+            "name": "Friendly Nieghbourhood Game Master",
+            "description": "Ea nulla cupidatat minim ut veniam commodo commodo eu dolor nisi duis eiusmod. Tempor nisi laborum consequat id eiusmod ut anim ullamco reprehenderit.",
+            "image": "iphone.png"
+        },
+        {
+            "type": "D&D",
+            "name": "Friendly Nieghbourhood Game Master",
+            "description": "Ea nulla cupidatat minim ut veniam commodo commodo eu dolor nisi duis eiusmod. Tempor nisi laborum consequat id eiusmod ut anim ullamco reprehenderit.",
+            "image": "iphone.png"
+        },
+        {
+            "type": "D&D",
+            "name": "Friendly Nieghbourhood Game Master",
+            "description": "Ea nulla cupidatat minim ut veniam commodo commodo eu dolor nisi duis eiusmod. Tempor nisi laborum consequat id eiusmod ut anim ullamco reprehenderit.",
+            "image": "iphone.png"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Backend Development",
+            "description": "Ea nulla cupidatat minim ut veniam commodo commodo eu dolor nisi duis eiusmod. Tempor nisi laborum consequat id eiusmod ut anim ullamco reprehenderit.",
+            "image": "backend.svg"
+        },
+        {
+            "name": "Frontend Development",
+            "description": "Ea nulla cupidatat minim ut veniam commodo commodo eu dolor nisi duis eiusmod. Tempor nisi laborum consequat id eiusmod ut anim ullamco reprehenderit.",
+            "image": "frontend.svg"
+        }
+    ]
+}

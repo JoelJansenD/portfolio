@@ -1,0 +1,12 @@
+@import "variables";
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0;
+
+    img {
+        width: 15vw;
+        margin: 0 32px;
+    }
+}

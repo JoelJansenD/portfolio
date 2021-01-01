@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10vh 0;
+}
+
+.footer img {
+  width: 15vw;
+  margin: 0 32px;
+}
+/*# sourceMappingURL=Footer.css.map */

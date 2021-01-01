@@ -5,7 +5,9 @@
 			"type": "npm",
 			"script": "deploy",
 			"group": "build",
-			"label": "npm: deploy"
+			"label": "npm: deploy",
+			"problemMatcher": [],
+			"detail": "gh-pages -d build"
 		},
 		{
 			"type": "npm",

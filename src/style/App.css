@@ -1,22 +1,47 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.landing {
+  margin-top: 75px;
+  position: relative;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing h1 {
+  margin: 0;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    -webkit-animation: App-logo-spin infinite 20s linear;
-            animation: App-logo-spin infinite 20s linear;
-  }
+.landing .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30vw;
+  margin-left: 20px;
+  margin-bottom: 75px;
+  color: #FFE7AB;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing .hero {
+  display: block;
+  width: 180vw;
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.content {
+  margin-top: -2px;
+  background-color: #F7F7F7;
+}
+
+.skills {
+  background-color: #FFE7AB;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,39 +49,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  padding: 5vh 0;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,43 @@
+@import "variables";
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+.projectinfo {
+    display: flex;
+    flex-direction: column;
+
+    .projecttype {
+        margin-top: 60px;
+        text-align: center;
+        font-family: $font-title;
+        font-weight: 500;
+
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: $color-primary;
+        font-size: 16px;
+    }
+
+    .projectname {
+        margin: 10px 0;
+        text-align: center;
+        font-family: $font-title;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .projectdescription {
+        margin-top: 0;
+        font-size: 14px;
+    }
+}
+
+img {
+    width: 80vw;
+}
